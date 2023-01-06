@@ -1,0 +1,38 @@
+.container-products {
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.msg-error {
+  font-weight: bolder;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: red;
+}
+
+.container-btn {
+  margin-bottom: 2rem;
+}
+
+.btn-pagination {
+  cursor: pointer;
+  border: none;
+  border-radius: 10%;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  background-color: violet;
+  font-weight: bolder;
+  color: #fff;
+}
+.btn-pagination:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
+.disabled,
+.disabled:hover {
+  background-color: lightgrey;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+.producto {
+  margin: 5rem;
+  width: 10rem;
+  border: 2px solid gray;
+  border-radius: 10%;
+}
+.p-name {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.p-brand {
+  font-size: 0.9rem;
+}
